@@ -35,6 +35,14 @@ const uiuxProjects = [
     description: "",
     image: "/images/uiux-4.jpg",
     tools: ["Figma", "Prototyping", "Visual Design"],
+  },
+  {
+    id: 5,
+    title: "Furniture App",
+    category: "Mobile Design",
+    description: "",
+    image: "/images/uiux-5.jpg",
+    tools: ["Figma", "Prototyping", "Visual Design"],
   }
 ];
 
