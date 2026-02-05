@@ -186,27 +186,24 @@ export default function Hero() {
   transition={{ duration: 0.8, delay: 0.2 }}
   className="order-1 lg:order-2 flex flex-col items-center lg:items-end"
 >
-  {/* Image Container */}
   <div className="relative">
-    {/* Decorative Background Shapes */}
     <motion.div
       className="absolute -top-4 -left-4 w-24 h-24 md:w-32 md:h-32 bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900 rounded-2xl -z-10"
       animate={{ rotate: [0, 10, 0] }}
       transition={{ duration: 5, repeat: Infinity }}
     />
     <motion.div
-      className="absolute -bottom-4 -right-4 w-20 h-20 md:w-28 md:h-28 bg-gradient-to-br from-accent-pink to-accent-orange rounded-2xl -z-10"
+      className="absolute -bottom-4 -right-4 w-20 h-20 md:w-28 md:h-28 bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900 rounded-2xl -z-10"
       animate={{ rotate: [0, -10, 0] }}
       transition={{ duration: 5, repeat: Infinity, delay: 0.5 }}
     />
 
-    {/* Profile Image */}
     <motion.div
       className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden glass-card p-2"
       whileHover={{ scale: 1.02 }}
       transition={{ type: "spring", stiffness: 300 }}
     >
-      <div className="w-full h-full rounded-2xl bg-gradient-to-br from-primary-100 to-accent-purple/20 dark:from-gray-800 dark:to-accent-purple/20 flex items-center justify-center overflow-hidden">
+      <div className="w-full h-full rounded-2xl bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900 flex items-center justify-center overflow-hidden">
         <img
           src="/images/profile.jpeg"
           alt="Siti Nurul Khofifah"
@@ -230,7 +227,7 @@ export default function Hero() {
       </div>
     </motion.div>
 
-    {/* Floating Cards - Desktop Only (Hidden on Mobile) */}
+    
     <motion.div
       className="hidden md:block absolute -left-6 lg:-left-12 top-1/4 glass-card px-4 py-3 rounded-xl"
       animate={{ y: [0, -10, 0] }}
@@ -248,7 +245,7 @@ export default function Hero() {
     </motion.div>
 
     <motion.div
-      className="hidden md:block absolute -right-4 lg:-right-10 bottom-1/4 glass-card px-4 py-3 rounded-xl"
+      className="hidden md:block absolute -right-4 lg:-right-5 bottom-1/4 glass-card px-4 py-3 rounded-xl"
       animate={{ y: [0, 10, 0] }}
       transition={{ duration: 3, repeat: Infinity, delay: 1 }}
     >
