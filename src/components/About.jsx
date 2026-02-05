@@ -72,26 +72,25 @@ export default function About() {
                 I specialize in building responsive, user-friendly web applications using modern technologies.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                My expertise lies in <span className="text-gray-900 font-medium">React.js</span>, 
-                <span className="text-gray-900 font-medium"> Next.js</span>, 
-                <span className="text-gray-900 font-medium"> TypeScript</span>, and 
-                <span className="text-gray-900 font-medium"> Tailwind CSS</span>. 
+                My expertise lies in <span className="text-gray-900 dark:text-white font-medium">React.js</span>, 
+                <span className="text-gray-900 dark:text-white font-medium"> Next.js</span>, 
+                <span className="text-gray-900 dark:text-white font-medium"> TypeScript</span>, and 
+                <span className="text-gray-900 dark:text-white font-medium"> Tailwind CSS</span>. 
                 I'm passionate about creating seamless user interfaces that not only look great but also perform exceptionally well.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Beyond coding, I have a strong interest in <span className="font-medium text-gray-900">UI/UX design</span>. 
+                Beyond coding, I have a strong interest in <span className="font-medium text-gray-900 dark:text-white ">UI/UX design</span>. 
                 I occasionally work on design projects using Figma to enhance my visual and user experience skills.
               </p>
 
-              {/* Fun Facts */}
               <div className="flex flex-wrap gap-4 pt-4">
                 <div className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 rounded-xl shadow-sm">
-                  <Coffee className="w-5 h-5 text-gray-500" />
-                  <span className="text-sm text-gray-600 dark:text-gray-400">Coffee Lover</span>
+                  <Coffee className="w-5 h-5 text-gray-500 dark:text-gray-100" />
+                  <span className="text-sm text-gray-600 dark:text-gray-100">Matcha Lover</span>
                 </div>
                 <div className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 rounded-xl shadow-sm">
-                  <Heart className="w-5 h-5 text-gray-500" />
-                  <span className="text-sm text-gray-600 dark:text-gray-400">Design Enthusiast</span>
+                  <Heart className="w-5 h-5 text-gray-500 dark:text-gray-100" />
+                  <span className="text-sm text-gray-600 dark:text-gray-100">Design Enthusiast</span>
                 </div>
               </div>
             </div>

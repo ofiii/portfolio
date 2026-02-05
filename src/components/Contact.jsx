@@ -6,7 +6,7 @@ import {
   MapPin, 
   Github, 
   Linkedin, 
-  Instagram
+  Instagram,
 } from 'lucide-react';
 
 const contactInfo = [
@@ -30,10 +30,10 @@ const contactInfo = [
   }
 ];
 
-// Social Media Links
 const socialLinks = [
   { icon: Github, href: "https://github.com/sitinurulkhofifah", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/siti-nurul-khofifah-a713b0187/", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/offii_", label: "Instagram"},
 ];
 
 export default function Contact() {
@@ -86,7 +86,6 @@ export default function Contact() {
               </p>
             </div>
 
-            {/* Contact Cards */}
             <div className="space-y-4">
               {contactInfo.map((info, index) => (
                 <motion.a
@@ -167,7 +166,7 @@ export default function Contact() {
               >
                 <div className="w-full h-full rounded-2xl bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-700 flex items-center justify-center overflow-hidden">
                   <img
-                    src="/images/profile.jpeg"
+                    src="/images/profile2.jpeg"
                     alt="Siti Nurul Khofifah"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -180,9 +179,8 @@ export default function Contact() {
                       <span className="text-4xl font-bold text-white">SN</span>
                     </div>
                     <p className="text-gray-500 dark:text-gray-400 text-sm">
-                      Add your photo at<br />
                       <code className="text-xs bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded mt-1 inline-block">
-                        /public/images/profile.jpeg
+                        /public/images/profile2.jpeg
                       </code>
                     </p>
                   </div>

@@ -60,7 +60,7 @@ export default function Experience() {
 
   return (
     <section id="experience" className="section-padding bg-gray-50/50 dark:bg-gray-900/50 relative overflow-hidden">
-      {/* Background */}
+   
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-4xl">
           <div className="absolute top-20 left-0 w-72 h-72 bg-primary-200/40 dark:bg-primary-900/20 rounded-full blur-3xl" />
@@ -69,7 +69,6 @@ export default function Experience() {
       </div>
 
       <div className="container-custom" ref={ref}>
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -88,9 +87,7 @@ export default function Experience() {
           </p>
         </motion.div>
 
-        {/* Timeline */}
         <div className="relative max-w-4xl mx-auto">
-          {/* Timeline Line */}
           <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b  from-gray-200 via-gray-300 to-gray-200 dark:from-gray-700 dark:via-gray-600 dark:to-gray-700 text-gray-900 dark:text-gray-100 transform md:-translate-x-1/2" />
 
           {experiences.map((exp, index) => (
@@ -115,12 +112,10 @@ export default function Experience() {
                 <Briefcase className="w-4 h-4 text-white" />
               </motion.div>
 
-              {/* Card */}
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 className="glass-card p-6 lg:p-8 text-left"
               >
-                {/* Header */}
                 <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">
@@ -158,14 +153,12 @@ export default function Experience() {
                   <ul className="space-y-1">
                     {exp.responsibilities.slice(0, 4).map((resp, i) => (
                       <li key={i} className="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400">
-                        <ChevronRight className="w-4 h-4 text-gray-900 flex-shrink-0 mt-0.5" />
+                        <ChevronRight className="w-4 h-4 text-gray-900 dark:text-gray-100 flex-shrink-0 mt-0.5" />
                         {resp}
                       </li>
                     ))}
                   </ul>
                 </div>
-
-                {/* Projects */}
                 {exp.projects.length > 0 && (
                   <div>
                     <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-2">
@@ -178,7 +171,7 @@ export default function Experience() {
                           className="px-3 py-1.5 bg-gray-100 dark:bg-gray-700 rounded-lg text-xs font-medium text-gray-700 dark:text-gray-300"
                         >
                           {project.name}
-                          <span className="text-gray-400 dark:text-gray-500 ml-1">• {project.tech}</span>
+                          <span className="text-gray-400 dark:text-gray-400 ml-1">• {project.tech}</span>
                         </span>
                       ))}
                     </div>

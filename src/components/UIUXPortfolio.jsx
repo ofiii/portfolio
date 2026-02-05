@@ -69,14 +69,13 @@ export default function UIUXPortfolio() {
 
   return (
     <section id="uiux" className="section-padding bg-gray-50/50 dark:bg-gray-900/50 relative overflow-hidden">
-      {/* Background */}
+   
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-80 h-80 rounded-full blur-3xl" />
       </div>
 
       <div className="container-custom" ref={ref}>
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -96,7 +95,6 @@ export default function UIUXPortfolio() {
           </p>
         </motion.div>
 
-        {/* Design Skills */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -112,13 +110,12 @@ export default function UIUXPortfolio() {
               key={skill.label}
               className="flex items-center gap-2 px-5 py-3 glass-card"
             >
-              <skill.icon className="w-5 h-5 text-gray-900" />
+              <skill.icon className="w-5 h-5 text-gray-900 dark:text-gray-100" />
               <span className="font-medium text-gray-700 dark:text-gray-300">{skill.label}</span>
             </div>
           ))}
         </motion.div>
 
-        {/* Projects Grid - Masonry Style */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {uiuxProjects.map((project, index) => (
             <motion.div
