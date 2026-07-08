@@ -6,28 +6,17 @@ import { ExternalLink, Github, ArrowRight, Layers, Code2, Globe } from 'lucide-r
 const projects = [
   {
     id: 1,
-    title: "OML Project",
-    category: "Internal System",
-    description: "A comprehensive platform built with React.js, featuring modern UI components and seamless user experience.",
-    image: "/images/project-oml.jpg",
-    tech: ["React.js", "Tailwind CSS", "REST API"],
-    features: ["UI SLicing", "API Integration"],
+    title: "XLSmart",
+    category: "Migration",
+    description: "Refactoring code for migration from cloud to tencent",
+    image: "/images/project-XLsmart.jpg",
+    tech: ["Next.js"],
+    features: ["refactoring code"],
     color: "bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900",
     company: "Digital Center"
   },
   {
     id: 2,
-    title: "KB Bank Company Website",
-    category: "Corporate Website",
-    description: "Professional corporate website with fully responsive design across desktop, tablet, and mobile devices.",
-    image: "/images/project-kbbank.jpg",
-    tech: ["JexFrame", "JSP", "HTML5", "CSS3", "JavaScript"],
-    features: ["Resposive Web, Mobile, Tablet", "UI Slicing", "Integration API"],
-    color: "bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900",
-    company: "Digital Center"
-  },
-  {
-    id: 3,
     title: "IFG Life DPLK System",
     category: "Internal System",
     description: "Internal pension fund management system built with Next.js and TypeScript for IFG Life insurance company.",
@@ -38,7 +27,29 @@ const projects = [
     company: "Digital Center"
   },
   {
+    id: 3,
+    title: "KB Bank Company Website",
+    category: "Corporate Website",
+    description: "Professional corporate website with fully responsive design across desktop, tablet, and mobile devices.",
+    image: "/images/project-kbbank.jpg",
+    tech: ["JexFrame", "JSP", "HTML5", "CSS3", "JavaScript"],
+    features: ["Resposive Web, Mobile, Tablet", "UI Slicing", "Integration API"],
+    color: "bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900",
+    company: "Digital Center"
+  },
+  {
     id: 4,
+    title: "OML Project",
+    category: "Internal System",
+    description: "A comprehensive platform built with React.js, featuring modern UI components and seamless user experience.",
+    image: "/images/project-oml.jpg",
+    tech: ["React.js", "Tailwind CSS", "REST API"],
+    features: ["UI SLicing", "API Integration"],
+    color: "bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900",
+    company: "Digital Center"
+  },
+  {
+    id: 5,
     title: "CRM Product Zegen",
     category: "Web Application",
     description: "Customer Relationship Management application for managing customer data, sales pipeline, and business analytics to improve customer engagement.",
@@ -49,7 +60,7 @@ const projects = [
     company: "Zegen Solusi Mandiri"
   },
   {
-    id: 5,
+    id: 6,
     title: "BNI Merchant",
     category: "Web Application",
     description: "Merchant management platform for BNI Bank, enabling merchants to manage transactions, monitor sales, and handle payment processing efficiently.",
@@ -60,7 +71,7 @@ const projects = [
     company: "Zegen Solusi Mandiri"
   },
   {
-    id: 6,
+    id: 7,
     title: "BTN Smart V3",
     category: "Web Application",
     description: "Smart banking application version 3 for Bank BTN",
@@ -71,7 +82,7 @@ const projects = [
     company: "Zegen Solusi Mandiri"
   },
   {
-    id: 7,
+    id: 8,
     title: "Sinotif - LMS Platform",
     category: "Web Application",
     description: "Comprehensive Learning Management System (LMS) application providing educational content management, course tracking, and student progress monitoring features.",

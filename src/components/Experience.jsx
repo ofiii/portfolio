@@ -21,7 +21,8 @@ const experiences = [
     projects: [
       { name: "OML", tech: "React.js" },
       { name: "KB Bank Company Website", tech: "JexFrame, CSS, HTML" },
-      { name: "IFG Life DPLK System", tech: "Next.js, TypeScript, RTK Query" }
+      { name: "IFG Life DPLK System", tech: "Next.js, TypeScript, RTK Query" },
+      { name: "XLsmart", tech: "migration from cloud to tencent" }
     ],
     color: "bg-gradient-to-r from-gray-400 to-gray-700 dark:from-gray-700 dark:via-gray-600 dark:to-gray-700 text-gray-900 dark:text-gray-100"
   },
